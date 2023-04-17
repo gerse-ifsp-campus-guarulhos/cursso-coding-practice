@@ -1,6 +1,6 @@
 # cursso-coding-practice
 
-Nesse curso / guia de codificação será apresentado métodos práticos de passos e técnicas de codificação englobando boas práticas e organização dos códigos, tendo o objetivo facilitar o mantenimento, desenvolvimento e trabalho em equipe de projetos de software. Como técnica será utilizado máquina de estados finitos como forma de modelar o processo e traduzi-lo para código, assim tendo um processo de desenvolvimento mais sistemático e compreensível. Também é importante pontuar  que esse curso / guia é focado predominantemente na prática e não na teoria, contudo caso queira se aprofundar em alguns conceitos que serão apresentados aqui sinta-se livre para estudá-las mais a fundo.
+Nesse curso / guia de codificação será apresentado métodos práticos, passos e técnicas de codificação que englobam boas práticas e organização dos códigos, visando facilitar o mantenimento, desenvolvimento e trabalho de equipe em projetos de software. Como técnica será utilizado máquina de estados finitos para  modelar o processo e traduzi-lo para código, assim tendo um processo de desenvolvimento mais sistemático e compreensível. Também é importante pontuar  que esse curso / guia é focado predominantemente na prática e não na teoria, contudo caso queira se aprofundar em alguns conceitos que serão apresentados aqui sinta-se livre para estudá-las mais a fundo.
 
 <br>
 <br>
