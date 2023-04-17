@@ -9,5 +9,5 @@ Nesse curso / guia de codificação será apresentado métodos práticos de pass
 
 ### **Materiais recursos**
 
-será utilizado o kit educacional [Shield Edu IFSP}(https://github.com/gerse-ifsp-campus-guarulhos/ShieldEdu-IFSP) e um Arduino uno, que integrará o ambiente de estudo junto do etitor de texto e compilador. Além disso é aconselhável utilizar o `vscode`  embora o conteúdo mostrado aqui não dependa do ambiente de desenvolvimento, dessa forma é plenamente possível utilizar outros ambientes.
+será utilizado o kit educacional [Shield Edu IFSP](https://github.com/gerse-ifsp-campus-guarulhos/ShieldEdu-IFSP) e um Arduino uno, que integrará o ambiente de estudo junto do etitor de texto e compilador. Além disso é aconselhável utilizar o `vscode`  embora o conteúdo mostrado aqui não dependa do ambiente de desenvolvimento, dessa forma é plenamente possível utilizar outros ambientes.
 
