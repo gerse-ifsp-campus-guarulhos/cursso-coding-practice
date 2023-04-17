@@ -19,3 +19,4 @@ Será utilizado o kit educacional [Shield Edu IFSP](https://github.com/gerse-ifs
  * Máquina de estados finitos;
  * Exercício.
 
+<hr><br><br>
