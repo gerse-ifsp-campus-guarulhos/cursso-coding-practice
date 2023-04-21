@@ -80,11 +80,11 @@ Há uma série de passos e métodos que vão pautar a forma como o código deve 
 
 <br>
 
-Primeiro de tudo é como deve-se pensar para codificar alguma coisa ou processo, arriscando dizer que essa é uma das etapas mais significativas para o desenvolvimento de qualquer coisa, assim como códigos, mecanismos, teses, textos, ideias, entre outros. Junto a isso um método e ou modelos sistemáticos permitem que algo abstrato ou “complexo” possa ser traduzido para para uma linguagem matemática, permitindo análises mais profundas e construções de detecção de  padrões. Bons exemplos disso são as redes de petri e máquina de estados  finitos, assuntos que serão discutidos ao decorrer deste guia e outros cursos.
+Primeiro de tudo é como deve-se pensar para codificar alguma coisa ou processo, arriscando dizer que essa é uma das etapas mais significativas para o desenvolvimento de qualquer coisa, assim como códigos, mecanismos, teses, textos, ideias, entre outros. Junto a isso um método e ou modelos sistemáticos permitem que algo abstrato ou “complexo” possa ser traduzido para para uma linguagem matemática, permitindo análises mais profundas e construções de detecção de  padrões. Bons exemplos disso são as redes de petri e máquina de estados  finitos, assuntos que serão discutidos ao decorrer deste guia e em outros cursos.
 
 <br>
 
-Então apresento o pensamento cartesiano, criado pelo filósofo René Descarte, mostrado em sua obra “O Discurso do Método".  Que de forma resumida busca um método de como alcançar o conhecimento racional, desmembrando-o em pedaços simples e de fácil entendimento. Trazendo isso para o nosso contexto iremos pegar ideias grandes, detalhadas e complexas e “quebrá las” em pequenas parcelas  menores possíveis, isso será posto em prática a seguir nos tópicos de funções e bibliotecas, máquinas de estados.
+Então apresento o pensamento cartesiano, criado pelo filósofo René Descarte, mostrado em sua obra “O Discurso do Método".  Que de forma resumida busca um método de como alcançar o conhecimento racional, desmembrando-o em pedaços simples e de fácil entendimento. Trazendo isso para o nosso contexto iremos pegar ideias grandes, detalhadas e complexas e “quebrá las” em pequenas parcelas  menores possíveis, isso será posto em prática a seguir nos tópicos de funções, bibliotecas e máquinas de estados.
 
 <br>
 
@@ -112,7 +112,7 @@ static float math_sfDividir( float fNumerador,  float fDenominador) {
 }
 ```
 
-claro que outras há questões que dis respeito a funções quando falamos de boas praticas e códigos limpos, mas nesse momento nosso foco está nos nomes, convenções e padrões. Agora tente densificar o que a próxima função faz em detrimento de seu nome e das variáveis e parâmetros  que ela contém :
+claro que outras há questões que relacionado a funções quando falamos de boas praticas e códigos limpos, mas nesse momento nosso foco está nos nomes, convenções e padrões. Agora tente identificar o que a próxima função faz em detrimento de seu nome e das variáveis e parâmetros  que ela contém :
 
 <br>
 
@@ -166,7 +166,9 @@ long doble math_ldFatorial( ... );
 
 <br>
 
- 3. Contrantes e macros devem ser escritas todas em caixa alta e identificadas fe forma semelhante a funções, veja o exemplo de *defines* do arquivo `config.h`:
+ 3. Contantes e macros devem ser escritas todas em caixa alta e identificadas de forma semelhante a funções, veja o exemplo de *defines* do arquivo `config.h`:
+
+<br>
 
  ```
 #define configTIME_OVERFLOW_MS	( 5000 )
@@ -181,7 +183,7 @@ long doble math_ldFatorial( ... );
 
 <br>
 
-Quanto a comentários estes devem ser evitados, apesar de contra intuitivo eles podem poluir o código e serão mais coisas para manter, dado que se alterado algo os comentários devem ser atualizados para evitar a disparidade de informações. Se a nomenclatura e as funções forem construídas de maneira adequada, o código será e deve ser explicativo, assim não tendo a possibilidade de comentários. 
+Quanto a comentários estes devem ser evitados, apesar de contra intuitivo eles podem poluir o código e serão mais coisas para manter, dado que se alterado algo os comentários devem ser atualizados para evitar a disparidade de informações. Se a nomenclatura e as funções forem construídas de maneira adequada, o código **será e deve ser auto explicativo**, assim não tendo a possibilidade de muitos comentários. 
 
 <br>
 
@@ -189,10 +191,14 @@ Em outro contexto, como linguagem orientada a objetos, muitos comentários podem
 
 <br>
 
+Apesar disso comentários são bem vindo para documentar o **processo**, e também quando o código se trata de uma SDK (kit de desenvolvimento de código) que necessitam de muito mais detalhamento do seu funcionamento.
 
 
-Seguindo essas etapas podemos chegar em códigos mais limpos e entendíveis, mesmo que o leitor não tenha muito conhecimento sobre o assunto, além de facilitar o trabalho em equipe e permitir outras vantagem com já citados anteriormente.
+<br>
 
+Seguindo essas etapas podemos chegar em códigos mais limpos e entendíveis, mesmo que o leitor não tenha muito conhecimento sobre o assunto, além de facilitar o trabalho em equipe e permitir outras vantagem já citados anteriormente.
+
+<br>
 
 **Indicação de leitura e pesquisa:**
 
