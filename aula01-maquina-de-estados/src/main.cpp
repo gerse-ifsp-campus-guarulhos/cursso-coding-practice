@@ -5,6 +5,7 @@ void setup( void ) {
 	pinMode( BT1_PIN,		INPUT_PULLUP		);
 	pinMode( BT2_PIN,		INPUT_PULLUP		);
 	pinMode( BT3_PIN,		INPUT_PULLUP		);
+	pinMode( ADC6_BORNE_PIN,	INPUT_PULLUP		);
 	pinMode( POT_PIN,		INPUT			);
 	pinMode( LCD_PIN_LED_A,		OUTPUT			);
 	pinMode( LCD_PIN_LED_B,		OUTPUT			);

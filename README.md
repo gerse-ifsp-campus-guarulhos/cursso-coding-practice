@@ -84,7 +84,7 @@ Primeiro de tudo é como deve-se pensar para codificar alguma coisa ou processo,
 
 <br>
 
-Então apresento o pensamento cartesiano, criado pelo filósofo René Descarte, mostrado em sua obra “O Discurso do Método".  Que de forma resumida busca um método de como alcançar o conhecimento racional, desmembrando-o em pedaços simples e de fácil entendimento. Trazendo isso para o nosso contexto iremos pegar ideias grandes, detalhadas e complexas e “quebrá las” em pequenas parcelas  menores possíveis, isso será posto em prática a seguir nos tópicos de funções, bibliotecas e máquinas de estados.
+Então apresento o pensamento cartesiano, criado pelo filósofo René Descarte, mostrado em sua obra “O Discurso do Método".  Que de forma resumida busca um método de como alcançar o conhecimento racional, desmembrando-o em pedaços simples e de fácil entendimento. Trazendo isso para o nosso contexto iremos pegar ideias grandes, detalhadas e complexas e “quebrá las” em pequenas parcelas, sedo elas menores possíveis. Isso será posto em prática a seguir nos tópicos de funções, bibliotecas e máquinas de estados.
 
 <br>
 
@@ -130,11 +130,11 @@ int func(int a, float b, char* string) {
 <br>
 
 
-Obviamente é simplesmente impossível saber o que essa função faz sem que tenhamos que analisar o código interno e **tentar** entendê-lo, e nesse caso corrigir um problema ou alterar e adicionar uma nova etapa, agora é uma tarefa mais complexa e com mais provabilidade a falhar. Se tivessem adotado nomes melhores isso seria mais simples de entender, e consequentemente realizar outras atividades em cima dessa função. Imagine o exemplo da divisão com o numerador e denominador com a ordem trocada, seria mais intuitivo identificar o que foi feito errado.
+Obviamente é simplesmente impossível saber o que essa função faz sem que tenhamos que analisar o código interno e **tentar** entendê-lo, e nesse caso corrigir um problema ou alterar e adicionar uma nova etapa, torna-se uma tarefa mais complexa e com mais provabilidade a falhar. Se tivessem adotado nomes melhores isso seria mais simples de entender, e consequentemente realizar outras atividades em cima dessa função seria uma atividade mais amigável. Imagine o exemplo da divisão com o numerador e denominador com a ordem trocada, seria mais intuitivo identificar o que foi feito errado.
 
 <br>
 
-Devem ter percebido alguns detalhes nos nomes adotados além do que a função fáz ou do que a variável armazena, no caso **f**Denominador e **math_sf**Dividir. Isso é o que chamamos de convenção aue são geralmente adotado por times, empresas,  e outros coletivos. No caso dos exemplos a convenção é:
+Devem ter percebido alguns detalhes nos nomes adotados além do que a função fáz ou do que a variável armazena, no caso **f**Denominador e **math_sf**Dividir. Isso é o que chamamos de convenção que são geralmente adotado por times, empresas,  e outros coletivos. No caso dos exemplos a convenção é:
 
 <br>
 
@@ -152,7 +152,7 @@ static unsigned long int suliTime = 953221475;
 
 <br>  
 
- 2. Antes dos nomes e tipos de uma função deve ser identificado a biblioteca de origem sempre sento separados por underline `_`, o exemplo a seguir mostra os protótipos funções que pertence a biblioteca `matematica.h` identificada como `math` :
+ 2. Antes dos nomes e tipos de uma função deve ser identificado a biblioteca de origem sempre sento separados por underline `_`, o exemplo a seguir mostra os protótipos de funções que pertence a biblioteca `matematica.h` identificada como `math` :
 
  <br>
 
@@ -178,12 +178,11 @@ long doble math_ldFatorial( ... );
 #define configOFFSET ( 42 )
 
 #define configSAMPLES( PERIOD ) ( PERIOD * configTIME_OVERFLOW_MS )
-
- ```
+```
 
 <br>
 
-Quanto a comentários estes devem ser evitados, apesar de contra intuitivo eles podem poluir o código e serão mais coisas para manter, dado que se alterado algo os comentários devem ser atualizados para evitar a disparidade de informações. Se a nomenclatura e as funções forem construídas de maneira adequada, o código **será e deve ser auto explicativo**, assim não tendo a possibilidade de muitos comentários. 
+Quanto a comentários estes devem ser evitados, apesar de contra intuitivo eles podem poluir o código e serão mais coisas para manter, dado que se alterado algo os comentários devem ser atualizados para evitar a disparidade de informações. Se a nomenclatura e as funções forem construídas de maneira adequada, o código **será e deve ser auto explicativo**, assim não tendo a necessidade de muitos comentários. 
 
 <br>
 
